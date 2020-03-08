@@ -11,3 +11,5 @@ func main() {
 	coin, err := coingecko.GetCoin("bitcoin", params)
 
 	if err == nil {
+		fmt.Println(coin)
+	} else {
