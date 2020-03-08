@@ -13,3 +13,4 @@ func main() {
 	if err == nil {
 		fmt.Println(coin)
 	} else {
+		fmt.Println("Failed to get coin", err)
