@@ -8,3 +8,4 @@ import (
 
 func main() {
 	params := coingecko.GetCoinHistoryParams{
+		Date:         "01-01-2021",
