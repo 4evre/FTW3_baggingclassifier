@@ -11,3 +11,5 @@ func main() {
 		Date:         "01-01-2021",
 		Localization: true,
 	}
+
+	history, err := coingecko.GetCoinHistory("cardano", params)
