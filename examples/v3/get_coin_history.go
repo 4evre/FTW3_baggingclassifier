@@ -15,3 +15,4 @@ func main() {
 	history, err := coingecko.GetCoinHistory("cardano", params)
 
 	if err == nil {
+		fmt.Println(history)
