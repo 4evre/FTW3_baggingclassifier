@@ -19,3 +19,4 @@ func main() {
 	} else {
 		fmt.Println("Failed to list coin history", err)
 	}
+}
