@@ -17,3 +17,5 @@ func main() {
 	if err == nil {
 		fmt.Println(history)
 	} else {
+		fmt.Println("Failed to list coin history", err)
+	}
