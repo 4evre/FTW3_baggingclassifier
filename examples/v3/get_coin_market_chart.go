@@ -12,3 +12,5 @@ func main() {
 		VSCurrency: "nzd",
 		Days:       5,
 	}
+
+	marketChart, err := coingecko.GetCoinMarketChart("stellar", params)
