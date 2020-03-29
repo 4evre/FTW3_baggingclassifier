@@ -11,3 +11,4 @@ func main() {
 	params := coingecko.GetCoinMarketChartParams{
 		VSCurrency: "nzd",
 		Days:       5,
+	}
