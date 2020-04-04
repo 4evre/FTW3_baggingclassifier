@@ -14,3 +14,6 @@ func main() {
 	}
 
 	marketChart, err := coingecko.GetCoinMarketChart("stellar", params)
+
+	if err == nil {
+		fmt.Println(marketChart)
