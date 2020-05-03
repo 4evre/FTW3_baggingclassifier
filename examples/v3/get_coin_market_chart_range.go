@@ -3,4 +3,4 @@ package main
 import (
 	"fmt"
 
-	coingecko "g
+	coingecko "gi
