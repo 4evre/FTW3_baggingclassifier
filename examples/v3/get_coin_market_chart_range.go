@@ -7,4 +7,4 @@ import (
 )
 
 func main() {
-	params := co
+	params := coin
