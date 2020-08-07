@@ -7,4 +7,4 @@ import (
 )
 
 func main() {
-	params := coingecko.GetCoinMarketChart
+	params := coingecko.GetCoinMarketChartR
