@@ -9,4 +9,4 @@ import (
 func main() {
 	params := coingecko.GetCoinMarketChartRangeParams{
 		VSCurrency: "nzd",
-		From:       1609412
+		From:       160941240
