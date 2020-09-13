@@ -11,3 +11,4 @@ func main() {
 		VSCurrency: "nzd",
 		From:       1609412400,
 		To:         1609498800,
+	}
