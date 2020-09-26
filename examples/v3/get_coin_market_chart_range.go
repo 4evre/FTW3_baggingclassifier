@@ -13,4 +13,4 @@ func main() {
 		To:         1609498800,
 	}
 
-	marketChart, er
+	marketChart, err 
