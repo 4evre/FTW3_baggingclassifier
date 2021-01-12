@@ -13,4 +13,4 @@ func main() {
 		To:         1609498800,
 	}
 
-	marketChart, err := coingecko.GetCoinMarketChartRange("polkadot", pa
+	marketChart, err := coingecko.GetCoinMarketChartRange("polkadot", para
