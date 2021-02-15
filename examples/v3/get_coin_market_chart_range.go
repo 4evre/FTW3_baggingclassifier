@@ -15,4 +15,4 @@ func main() {
 
 	marketChart, err := coingecko.GetCoinMarketChartRange("polkadot", params)
 
-	if err
+	if err 
