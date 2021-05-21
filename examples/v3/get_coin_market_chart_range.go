@@ -19,4 +19,4 @@ func main() {
 		fmt.Println(marketChart)
 	} else {
 		fmt.Println(err)
-	
+	}
