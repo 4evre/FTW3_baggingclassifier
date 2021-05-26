@@ -10,3 +10,5 @@ import (
 func main() {
 	params := coingecko.GetCoinMarketsParams{VSCurrency: "nzd"}
 	markets, err := coingecko.GetCoinMarkets(params)
+
+	if err == nil {
