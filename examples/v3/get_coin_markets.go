@@ -12,3 +12,4 @@ func main() {
 	markets, err := coingecko.GetCoinMarkets(params)
 
 	if err == nil {
+		fmt.Println(markets)
