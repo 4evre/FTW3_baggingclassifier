@@ -14,3 +14,4 @@ func main() {
 	if err == nil {
 		fmt.Println(markets)
 	} else {
+		fmt.Println("Failed to list markets", err)
