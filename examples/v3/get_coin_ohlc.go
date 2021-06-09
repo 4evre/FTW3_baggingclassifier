@@ -8,3 +8,5 @@ import (
 )
 
 func main() {
+	params := coingecko.GetCoinOHLCParams{
+		VSCurrency: "nzd",
