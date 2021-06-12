@@ -12,3 +12,5 @@ func main() {
 		VSCurrency: "nzd",
 		Days:       7,
 	}
+
+	ohlc, err := coingecko.GetCoinOHLC("ethereum", params)
