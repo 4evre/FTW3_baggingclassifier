@@ -11,3 +11,4 @@ func main() {
 	params := coingecko.GetCoinOHLCParams{
 		VSCurrency: "nzd",
 		Days:       7,
+	}
