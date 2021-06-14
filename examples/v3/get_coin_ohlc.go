@@ -16,3 +16,6 @@ func main() {
 	ohlc, err := coingecko.GetCoinOHLC("ethereum", params)
 
 	if err == nil {
+		fmt.Println(ohlc)
+	} else {
+		fmt.Println(err)
