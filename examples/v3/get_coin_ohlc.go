@@ -19,3 +19,5 @@ func main() {
 		fmt.Println(ohlc)
 	} else {
 		fmt.Println(err)
+	}
+}
