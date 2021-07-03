@@ -3,4 +3,4 @@ package main
 import (
 	"fmt"
 
-	coingecko "github.com/insprac/g
+	coingecko "github.com/insprac/go-
