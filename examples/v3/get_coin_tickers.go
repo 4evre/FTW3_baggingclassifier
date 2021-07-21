@@ -7,4 +7,4 @@ import (
 )
 
 func main() {
-	para
+	params
