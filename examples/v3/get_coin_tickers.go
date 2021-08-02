@@ -7,4 +7,5 @@ import (
 )
 
 func main() {
-	params := coingecko.GetCoinTickersParams
+	params := coingecko.GetCoinTickersParams{
+		
