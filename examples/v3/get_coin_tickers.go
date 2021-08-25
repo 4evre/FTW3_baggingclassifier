@@ -9,4 +9,4 @@ import (
 func main() {
 	params := coingecko.GetCoinTickersParams{
 		IncludeExchangeLogo: true,
-		Order:               "volume_de
+		Order:               "volume_des
