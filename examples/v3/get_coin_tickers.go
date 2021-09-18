@@ -12,4 +12,4 @@ func main() {
 		Order:               "volume_desc",
 	}
 
-	tickers, err := coingecko.GetCoinTickers("eth
+	tickers, err := coingecko.GetCoinTickers("ethe
