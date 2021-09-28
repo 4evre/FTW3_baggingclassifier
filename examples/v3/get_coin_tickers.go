@@ -14,4 +14,4 @@ func main() {
 
 	tickers, err := coingecko.GetCoinTickers("ethereum", params)
 
-	if err ==
+	if err == ni
