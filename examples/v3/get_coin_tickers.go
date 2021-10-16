@@ -17,4 +17,4 @@ func main() {
 	if err == nil {
 		fmt.Println(tickers)
 	} else {
-		fmt.Println("Failed t
+		fmt.Println("Failed to
