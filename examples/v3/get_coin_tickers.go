@@ -18,3 +18,4 @@ func main() {
 		fmt.Println(tickers)
 	} else {
 		fmt.Println("Failed to list coin tickers", err)
+	
