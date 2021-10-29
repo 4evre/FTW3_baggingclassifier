@@ -9,3 +9,5 @@ import (
 
 func main() {
 	coins, err := coingecko.GetCoins()
+
+	if err == nil {
