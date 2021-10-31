@@ -15,3 +15,4 @@ func main() {
 	} else {
 		fmt.Println("Failed to list coins", err)
 	}
+}
