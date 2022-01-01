@@ -7,4 +7,4 @@ import (
 )
 
 func main() {
-	params := coingecko.GetCo
+	params := coingecko.GetCoin
