@@ -8,4 +8,4 @@ import (
 
 func main() {
 	params := coingecko.GetCoinStatusUpdatesParams{
-		
+		Pe
