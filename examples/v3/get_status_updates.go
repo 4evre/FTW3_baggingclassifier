@@ -10,4 +10,4 @@ func main() {
 	params := coingecko.GetCoinStatusUpdatesParams{
 		PerPage: 2,
 		Page:    1,
-	
+	}
