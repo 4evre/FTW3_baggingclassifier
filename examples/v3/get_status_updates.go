@@ -12,4 +12,4 @@ func main() {
 		Page:    1,
 	}
 
-	marketChart, err := coingecko.GetCoinStatusUpdates("
+	marketChart, err := coingecko.GetCoinStatusUpdates("c
