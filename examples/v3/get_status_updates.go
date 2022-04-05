@@ -15,4 +15,4 @@ func main() {
 	marketChart, err := coingecko.GetCoinStatusUpdates("cardano", params)
 
 	if err == nil {
-		fmt.Println(market
+		fmt.Println(marketCha
