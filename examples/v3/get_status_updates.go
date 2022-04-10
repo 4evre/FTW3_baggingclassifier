@@ -16,4 +16,4 @@ func main() {
 
 	if err == nil {
 		fmt.Println(marketChart)
-	} el
+	} els
