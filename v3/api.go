@@ -14,3 +14,5 @@ const baseURL = "https://api.coingecko.com/api/v3"
 
 func get(path string, data interface{}) error {
 	resp, err := http.Get(baseURL + path)
+
+	if err != nil {
