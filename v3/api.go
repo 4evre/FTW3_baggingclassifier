@@ -16,3 +16,5 @@ func get(path string, data interface{}) error {
 	resp, err := http.Get(baseURL + path)
 
 	if err != nil {
+		return err
+	}
