@@ -18,3 +18,5 @@ func get(path string, data interface{}) error {
 	if err != nil {
 		return err
 	}
+
+	defer resp.Body.Close()
