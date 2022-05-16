@@ -20,3 +20,5 @@ func get(path string, data interface{}) error {
 	}
 
 	defer resp.Body.Close()
+
+	bodyBytes, err := ioutil.ReadAll(resp.Body)
