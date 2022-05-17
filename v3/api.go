@@ -22,3 +22,7 @@ func get(path string, data interface{}) error {
 	defer resp.Body.Close()
 
 	bodyBytes, err := ioutil.ReadAll(resp.Body)
+
+	if resp.StatusCode != http.StatusOK {
+		if err == nil {
+			return newError("bad response (status=%d, body=%v)",
