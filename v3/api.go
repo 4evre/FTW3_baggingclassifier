@@ -27,3 +27,5 @@ func get(path string, data interface{}) error {
 		if err == nil {
 			return newError("bad response (status=%d, body=%v)",
 				resp.StatusCode,
+				string(bodyBytes))
+		} else {
