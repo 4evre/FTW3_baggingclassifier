@@ -26,3 +26,4 @@ func get(path string, data interface{}) error {
 	if resp.StatusCode != http.StatusOK {
 		if err == nil {
 			return newError("bad response (status=%d, body=%v)",
+				resp.StatusCode,
