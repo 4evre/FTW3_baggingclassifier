@@ -30,3 +30,4 @@ func get(path string, data interface{}) error {
 				string(bodyBytes))
 		} else {
 			return newError("bad response (status=%d)", resp.StatusCode)
+		}
