@@ -32,3 +32,6 @@ func get(path string, data interface{}) error {
 			return newError("bad response (status=%d)", resp.StatusCode)
 		}
 	}
+
+	if err != nil {
+		return err
