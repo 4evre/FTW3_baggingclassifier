@@ -39,3 +39,5 @@ func get(path string, data interface{}) error {
 
 	return json.Unmarshal(bodyBytes, &data)
 }
+
+func getWithParams(path string, params interface{}, data interface{}) error {
