@@ -41,3 +41,4 @@ func get(path string, data interface{}) error {
 }
 
 func getWithParams(path string, params interface{}, data interface{}) error {
+	queryString, err := qe.Marshal(params)
