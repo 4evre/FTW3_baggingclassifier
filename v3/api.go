@@ -45,3 +45,4 @@ func getWithParams(path string, params interface{}, data interface{}) error {
 
 	if err != nil {
 		return err
+	}
