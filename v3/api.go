@@ -52,3 +52,4 @@ func getWithParams(path string, params interface{}, data interface{}) error {
 	} else {
 		return get(path+"?"+queryString, data)
 	}
+}
