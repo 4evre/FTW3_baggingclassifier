@@ -53,3 +53,5 @@ func getWithParams(path string, params interface{}, data interface{}) error {
 		return get(path+"?"+queryString, data)
 	}
 }
+
+func newError(message string, args ...interface{}) error {
