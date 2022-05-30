@@ -55,3 +55,4 @@ func getWithParams(path string, params interface{}, data interface{}) error {
 }
 
 func newError(message string, args ...interface{}) error {
+	return errors.New(fmt.Sprintf(message, args...))
