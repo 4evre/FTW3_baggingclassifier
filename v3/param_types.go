@@ -10,3 +10,4 @@ type GetCoinMarketsParams struct {
 	Page                  uint16   `q:"page"`
 	Sparkline             bool     `q:"sparkline"`
 	PriceChangePercentage string   `q:"price_change_percentage"`
+}
