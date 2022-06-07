@@ -14,3 +14,4 @@ type GetCoinMarketsParams struct {
 
 type GetCoinParams struct {
 	Localization  string `q:"localization"`
+	Tickers       bool   `q:"tickers"`
