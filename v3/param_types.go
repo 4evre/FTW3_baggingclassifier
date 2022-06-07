@@ -11,3 +11,5 @@ type GetCoinMarketsParams struct {
 	Sparkline             bool     `q:"sparkline"`
 	PriceChangePercentage string   `q:"price_change_percentage"`
 }
+
+type GetCoinParams struct {
