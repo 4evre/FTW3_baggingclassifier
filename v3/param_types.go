@@ -19,3 +19,4 @@ type GetCoinParams struct {
 	CommunityData bool   `q:"community_data"`
 	DeveloperData bool   `q:"developer_data"`
 	Sparkline     bool   `q:"sparkline"`
+}
