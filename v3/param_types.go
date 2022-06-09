@@ -17,3 +17,5 @@ type GetCoinParams struct {
 	Tickers       bool   `q:"tickers"`
 	MarketData    bool   `q:"market_data"`
 	CommunityData bool   `q:"community_data"`
+	DeveloperData bool   `q:"developer_data"`
+	Sparkline     bool   `q:"sparkline"`
