@@ -15,3 +15,5 @@ type GetCoinMarketsParams struct {
 type GetCoinParams struct {
 	Localization  string `q:"localization"`
 	Tickers       bool   `q:"tickers"`
+	MarketData    bool   `q:"market_data"`
+	CommunityData bool   `q:"community_data"`
