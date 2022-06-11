@@ -20,3 +20,5 @@ type GetCoinParams struct {
 	DeveloperData bool   `q:"developer_data"`
 	Sparkline     bool   `q:"sparkline"`
 }
+
+type GetCoinTickersParams struct {
