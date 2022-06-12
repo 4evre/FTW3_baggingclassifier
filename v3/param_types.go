@@ -23,3 +23,4 @@ type GetCoinParams struct {
 
 type GetCoinTickersParams struct {
 	ExchangeIDs         string `q:"exchange_ids"`
+	IncludeExchangeLogo bool   `q:"include_exchange_logo"`
