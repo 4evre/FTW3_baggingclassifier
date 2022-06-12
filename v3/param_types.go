@@ -22,3 +22,4 @@ type GetCoinParams struct {
 }
 
 type GetCoinTickersParams struct {
+	ExchangeIDs         string `q:"exchange_ids"`
