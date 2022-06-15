@@ -28,3 +28,5 @@ type GetCoinTickersParams struct {
 	Order               string `q:"order"`
 	Depth               string `q:"depth"`
 }
+
+type GetCoinHistoryParams struct {
