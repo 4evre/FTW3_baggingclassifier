@@ -31,3 +31,5 @@ type GetCoinTickersParams struct {
 
 type GetCoinHistoryParams struct {
 	Date         string `q:"date" required:"true"`
+	Localization bool   `q:"localization"`
+}
