@@ -41,3 +41,4 @@ type GetCoinMarketChartParams struct {
 }
 
 type GetCoinMarketChartRangeParams struct {
+	VSCurrency string `q:"vs_currency" required:"true"`
