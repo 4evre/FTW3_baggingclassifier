@@ -39,3 +39,5 @@ type GetCoinMarketChartParams struct {
 	Days       uint16 `q:"days" required:"true"`
 	Interval   string `q:"interval"`
 }
+
+type GetCoinMarketChartRangeParams struct {
