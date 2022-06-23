@@ -45,3 +45,7 @@ type GetCoinMarketChartRangeParams struct {
 	From       int64  `q:"from" required:"true"`
 	To         int64  `q:"to" required:"true"`
 }
+
+type GetCoinStatusUpdatesParams struct {
+	PerPage uint16 `q:"per_page"`
+	Page    uint16 `q:"page"`
