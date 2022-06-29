@@ -54,3 +54,4 @@ type GetCoinStatusUpdatesParams struct {
 type GetCoinOHLCParams struct {
 	VSCurrency string `q:"vs_currency" required:"true"`
 	Days       uint16 `q:"days" required:"true"`
+}
