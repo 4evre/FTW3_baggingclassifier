@@ -6,3 +6,5 @@ type ListedCoin struct {
 	Symbol string `json:"symbol"`
 	Name   string `json:"name"`
 }
+
+type Coin struct {
