@@ -8,3 +8,4 @@ type ListedCoin struct {
 }
 
 type Coin struct {
+	ID                           string                  `json:"id"`
