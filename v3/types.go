@@ -16,3 +16,6 @@ type Coin struct {
 	HashingAlgorithm             string                  `json:"hashing_algorithm"`
 	Categories                   []string                `json:"categories"`
 	PublicNotice                 string                  `json:"public_notice"`
+	AdditionalNotice             string                  `json:"additional_notice"`
+	Localization                 map[string]string       `json:"localization"`
+	Description                  map[string]string       `json:"description"`
