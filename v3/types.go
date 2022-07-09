@@ -14,3 +14,5 @@ type Coin struct {
 	AssetPlatformID              string                  `json:"asset_platform_id"`
 	BlockTimeInMinutes           uint16                  `json:"block_time_in_minutes"`
 	HashingAlgorithm             string                  `json:"hashing_algorithm"`
+	Categories                   []string                `json:"categories"`
+	PublicNotice                 string                  `json:"public_notice"`
