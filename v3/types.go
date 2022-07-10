@@ -21,3 +21,5 @@ type Coin struct {
 	Description                  map[string]string       `json:"description"`
 	Links                        CoinLinks               `json:"links"`
 	Image                        ImageLinks              `json:"image"`
+	CountryOrigin                string                  `json:"country_origin"`
+	GenesisDate                  string                  `json:"genesis_date"`
