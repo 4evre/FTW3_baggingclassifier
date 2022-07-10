@@ -23,3 +23,4 @@ type Coin struct {
 	Image                        ImageLinks              `json:"image"`
 	CountryOrigin                string                  `json:"country_origin"`
 	GenesisDate                  string                  `json:"genesis_date"`
+	SentimentVotesUpPercentage   float64                 `json:"sentiment_votes_up_percentage"`
