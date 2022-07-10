@@ -19,3 +19,5 @@ type Coin struct {
 	AdditionalNotice             string                  `json:"additional_notice"`
 	Localization                 map[string]string       `json:"localization"`
 	Description                  map[string]string       `json:"description"`
+	Links                        CoinLinks               `json:"links"`
+	Image                        ImageLinks              `json:"image"`
