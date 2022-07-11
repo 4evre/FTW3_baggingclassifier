@@ -24,3 +24,6 @@ type Coin struct {
 	CountryOrigin                string                  `json:"country_origin"`
 	GenesisDate                  string                  `json:"genesis_date"`
 	SentimentVotesUpPercentage   float64                 `json:"sentiment_votes_up_percentage"`
+	SentimentVotesDownPercentage float64                 `json:"sentiment_votes_down_percentage"`
+	MarketCapRank                uint16                  `json:"market_cap_rank"`
+	CoinGeckoRank                uint16                  `json:"coingecko_rank"`
