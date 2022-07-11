@@ -27,3 +27,5 @@ type Coin struct {
 	SentimentVotesDownPercentage float64                 `json:"sentiment_votes_down_percentage"`
 	MarketCapRank                uint16                  `json:"market_cap_rank"`
 	CoinGeckoRank                uint16                  `json:"coingecko_rank"`
+	CoinGeckoScore               float64                 `json:"coingecko_score"`
+	DeveloperScore               float64                 `json:"developer_score"`
