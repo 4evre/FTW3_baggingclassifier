@@ -34,3 +34,6 @@ type Coin struct {
 	PublicInterestScore          float64                 `json:"public_interest_score"`
 	MarketData                   CoinMarketData          `json:"market_data"`
 	CommunityData                CoinCommunityData       `json:"community_data"`
+	DeveloperData                CoinDeveloperData       `json:"developer_data"`
+	PublicInterestStats          CoinPublicInterestStats `json:"public_interest_stats"`
+	StatusUpdates                []CoinStatusUpdate      `json:"status_updates"`
