@@ -30,3 +30,4 @@ type Coin struct {
 	CoinGeckoScore               float64                 `json:"coingecko_score"`
 	DeveloperScore               float64                 `json:"developer_score"`
 	CommunityScore               float64                 `json:"community_score"`
+	LiquidityScore               float64                 `json:"liquidity_score"`
