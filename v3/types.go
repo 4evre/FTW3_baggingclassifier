@@ -37,3 +37,4 @@ type Coin struct {
 	DeveloperData                CoinDeveloperData       `json:"developer_data"`
 	PublicInterestStats          CoinPublicInterestStats `json:"public_interest_stats"`
 	StatusUpdates                []CoinStatusUpdate      `json:"status_updates"`
+	LastUpdated                  string                  `json:"last_updated"`
