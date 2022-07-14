@@ -38,3 +38,4 @@ type Coin struct {
 	PublicInterestStats          CoinPublicInterestStats `json:"public_interest_stats"`
 	StatusUpdates                []CoinStatusUpdate      `json:"status_updates"`
 	LastUpdated                  string                  `json:"last_updated"`
+	Tickers                      []CoinTicker            `json:"tickers"`
