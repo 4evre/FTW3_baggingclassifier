@@ -39,3 +39,4 @@ type Coin struct {
 	StatusUpdates                []CoinStatusUpdate      `json:"status_updates"`
 	LastUpdated                  string                  `json:"last_updated"`
 	Tickers                      []CoinTicker            `json:"tickers"`
+}
