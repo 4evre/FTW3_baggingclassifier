@@ -40,3 +40,6 @@ type Coin struct {
 	LastUpdated                  string                  `json:"last_updated"`
 	Tickers                      []CoinTicker            `json:"tickers"`
 }
+
+type CoinLinks struct {
+	Homepage                    []string `json:"homepage"`
