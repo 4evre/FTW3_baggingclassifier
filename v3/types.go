@@ -43,3 +43,5 @@ type Coin struct {
 
 type CoinLinks struct {
 	Homepage                    []string `json:"homepage"`
+	BlockchainSite              []string `json:"blockchain_site"`
+	OfficialForumURL            []string `json:"official_forum_url"`
