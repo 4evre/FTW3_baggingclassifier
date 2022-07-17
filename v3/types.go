@@ -46,3 +46,6 @@ type CoinLinks struct {
 	BlockchainSite              []string `json:"blockchain_site"`
 	OfficialForumURL            []string `json:"official_forum_url"`
 	ChatURL                     []string `json:"chat_url"`
+	AnnouncementURL             []string `json:"announcement_url"`
+	TwitterScreenName           string   `json:"twitter_screen_name"`
+	FacebookUsername            string   `json:"facebook_username"`
