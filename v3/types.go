@@ -53,3 +53,4 @@ type CoinLinks struct {
 	TelegramChannelIdentifier   string   `json:"telegram_channel_identifier"`
 	SubredditURL                string   `json:"subreddit_url"`
 	ReposURL                    RepoURLs `json:"repos_url"`
+}
