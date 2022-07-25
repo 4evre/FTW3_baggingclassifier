@@ -54,3 +54,7 @@ type CoinLinks struct {
 	SubredditURL                string   `json:"subreddit_url"`
 	ReposURL                    RepoURLs `json:"repos_url"`
 }
+
+type RepoURLs struct {
+	GitHub    []string `json:"github"`
+	Bitbucket []string `json:"bitbucket"`
