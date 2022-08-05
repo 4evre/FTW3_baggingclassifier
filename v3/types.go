@@ -59,3 +59,5 @@ type RepoURLs struct {
 	GitHub    []string `json:"github"`
 	Bitbucket []string `json:"bitbucket"`
 }
+
+type ImageLinks struct {
