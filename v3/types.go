@@ -58,3 +58,4 @@ type CoinLinks struct {
 type RepoURLs struct {
 	GitHub    []string `json:"github"`
 	Bitbucket []string `json:"bitbucket"`
+}
