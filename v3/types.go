@@ -70,3 +70,5 @@ type CoinMarketData struct {
 	CurrentPrice                           map[string]float64 `json:"current_price"`
 	ROI                                    ReturnOnInvestment `json:"roi"`
 	ATH                                    map[string]float64 `json:"ath"`
+	ATHChangePercentage                    map[string]float64 `json:"ath_change_percentage"`
+	ATHDate                                map[string]string  `json:"ath_date"`
