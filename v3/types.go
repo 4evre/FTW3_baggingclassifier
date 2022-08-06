@@ -65,3 +65,6 @@ type ImageLinks struct {
 	Small string `json:"small"`
 	Large string `json:"large"`
 }
+
+type CoinMarketData struct {
+	CurrentPrice                           map[string]float64 `json:"current_price"`
