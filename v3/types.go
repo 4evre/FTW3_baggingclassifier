@@ -77,3 +77,5 @@ type CoinMarketData struct {
 	ATLDate                                map[string]string  `json:"atl_date"`
 	MarketCapRank                          uint16             `json:"market_cap_rank"`
 	FullyDilutedValuation                  map[string]uint64  `json:"fully_diluted_valuation"`
+	High24h                                map[string]float64 `json:"high_24h"`
+	Low24h                                 map[string]float64 `json:"low_24h"`
