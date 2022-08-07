@@ -73,3 +73,4 @@ type CoinMarketData struct {
 	ATHChangePercentage                    map[string]float64 `json:"ath_change_percentage"`
 	ATHDate                                map[string]string  `json:"ath_date"`
 	ATL                                    map[string]float64 `json:"atl"`
+	ATLChangePercentage                    map[string]float64 `json:"atl_change_percentage"`
