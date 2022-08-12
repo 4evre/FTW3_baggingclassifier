@@ -85,3 +85,6 @@ type CoinMarketData struct {
 	PriceChangePercentage14d               float64            `json:"price_change_percentage_14d"`
 	PriceChangePercentage30d               float64            `json:"price_change_percentage_30d"`
 	PriceChangePercentage60d               float64            `json:"price_change_percentage_60d"`
+	PriceChangePercentage200d              float64            `json:"price_change_percentage_200d"`
+	PriceChangePercentage1y                float64            `json:"price_change_percentage_1y"`
+	MarketCapChange24h                     float64            `json:"market_cap_change_24h"`
