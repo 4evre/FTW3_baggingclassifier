@@ -104,3 +104,4 @@ type CoinMarketData struct {
 	MaxSupply                              float64            `json:"max_supply"`
 	CirculatingSupply                      float64            `json:"circulating_supply"`
 	LastUpdated                            string             `json:"last_updated"`
+}
