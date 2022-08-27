@@ -108,3 +108,4 @@ type CoinMarketData struct {
 
 type CoinCommunityData struct {
 	FacebookLikes            uint64  `json:"facebook_likes"`
+	TwitterFollowers         uint64  `json:"twitter_followers"`
