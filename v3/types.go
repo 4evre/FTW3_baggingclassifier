@@ -110,3 +110,5 @@ type CoinCommunityData struct {
 	FacebookLikes            uint64  `json:"facebook_likes"`
 	TwitterFollowers         uint64  `json:"twitter_followers"`
 	RedditAveragePosts48h    float64 `json:"reddit_average_posts_48h"`
+	RedditAverageComments48h float64 `json:"reddit_average_comments_48h"`
+	RedditSubscribers        uint64  `json:"reddit_subscribers"`
