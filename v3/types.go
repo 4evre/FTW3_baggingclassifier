@@ -119,3 +119,5 @@ type CoinCommunityData struct {
 type CoinDeveloperData struct {
 	Forks                          uint32                              `json:"forks"`
 	Stars                          uint32                              `json:"stars"`
+	Subscribers                    uint32                              `json:"subscribers"`
+	TotalIssues                    uint32                              `json:"total_issues"`
