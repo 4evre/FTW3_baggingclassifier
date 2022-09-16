@@ -113,3 +113,7 @@ type CoinCommunityData struct {
 	RedditAverageComments48h float64 `json:"reddit_average_comments_48h"`
 	RedditSubscribers        uint64  `json:"reddit_subscribers"`
 	RedditAccountsActive48h  uint64  `json:"reddit_accounts_active_48h"`
+	TelegramChannelUserCount uint64  `json:"telegram_channel_user_count"`
+}
+
+type CoinDeveloperData struct {
