@@ -121,3 +121,4 @@ type CoinDeveloperData struct {
 	Stars                          uint32                              `json:"stars"`
 	Subscribers                    uint32                              `json:"subscribers"`
 	TotalIssues                    uint32                              `json:"total_issues"`
+	ClosedIssues                   uint32                              `json:"closed_issues"`
