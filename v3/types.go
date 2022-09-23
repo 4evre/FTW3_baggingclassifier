@@ -122,3 +122,5 @@ type CoinDeveloperData struct {
 	Subscribers                    uint32                              `json:"subscribers"`
 	TotalIssues                    uint32                              `json:"total_issues"`
 	ClosedIssues                   uint32                              `json:"closed_issues"`
+	PullRequestsMerged             uint32                              `json:"pull_requests_merged"`
+	PullRequestContributors        uint32                              `json:"pull_request_contributors"`
