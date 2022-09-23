@@ -125,3 +125,4 @@ type CoinDeveloperData struct {
 	PullRequestsMerged             uint32                              `json:"pull_requests_merged"`
 	PullRequestContributors        uint32                              `json:"pull_request_contributors"`
 	CodeAdditionsDeletions4Weeks   CoinDeveloperDataDeletionsAdditions `json:"code_additions_deletions_4_weeks"`
+	CommitCount4Weeks              uint32                              `json:"commit_count_4_weeks"`
