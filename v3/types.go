@@ -130,3 +130,4 @@ type CoinDeveloperData struct {
 }
 
 type CoinDeveloperDataDeletionsAdditions struct {
+	Additions uint32 `json:"additions"`
