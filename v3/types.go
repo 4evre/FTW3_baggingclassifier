@@ -128,3 +128,5 @@ type CoinDeveloperData struct {
 	CommitCount4Weeks              uint32                              `json:"commit_count_4_weeks"`
 	Last4WeeksCommitActivitySeries []uint16                            `json:"last_4_weeks_commit_activity_series"`
 }
+
+type CoinDeveloperDataDeletionsAdditions struct {
