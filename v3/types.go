@@ -135,3 +135,4 @@ type CoinDeveloperDataDeletionsAdditions struct {
 }
 
 type CoinPublicInterestStats struct {
+	AlexaRank   uint32 `json:"alexa_rank"`
