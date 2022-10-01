@@ -133,3 +133,5 @@ type CoinDeveloperDataDeletionsAdditions struct {
 	Additions uint32 `json:"additions"`
 	Deletions uint32 `json:"deletions"`
 }
+
+type CoinPublicInterestStats struct {
