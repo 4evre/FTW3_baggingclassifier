@@ -144,3 +144,4 @@ type CoinStatusUpdate struct {
 	Category    string                  `json:"category"`
 	CreatedAt   string                  `json:"created_at"`
 	User        string                  `json:"user"`
+	UserTitle   string                  `json:"user_title"`
