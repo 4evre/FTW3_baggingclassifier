@@ -141,3 +141,6 @@ type CoinPublicInterestStats struct {
 
 type CoinStatusUpdate struct {
 	Description string                  `json:"description"`
+	Category    string                  `json:"category"`
+	CreatedAt   string                  `json:"created_at"`
+	User        string                  `json:"user"`
