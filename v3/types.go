@@ -138,3 +138,6 @@ type CoinPublicInterestStats struct {
 	AlexaRank   uint32 `json:"alexa_rank"`
 	BingMatches uint32 `json:"bing_matches"`
 }
+
+type CoinStatusUpdate struct {
+	Description string                  `json:"description"`
