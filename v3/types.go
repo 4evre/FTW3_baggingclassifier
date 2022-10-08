@@ -150,3 +150,4 @@ type CoinStatusUpdate struct {
 }
 
 type CoinStatusUpdateProject struct {
+	ID     string     `json:"id"`
