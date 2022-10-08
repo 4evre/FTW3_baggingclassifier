@@ -147,3 +147,4 @@ type CoinStatusUpdate struct {
 	UserTitle   string                  `json:"user_title"`
 	Pin         bool                    `json:"pin"`
 	Project     CoinStatusUpdateProject `json:"project"`
+}
