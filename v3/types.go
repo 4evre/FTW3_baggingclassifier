@@ -156,3 +156,6 @@ type CoinStatusUpdateProject struct {
 	Type   string     `json:"type"`
 	Image  ImageLinks `json:"image"`
 }
+
+type CoinTicker struct {
+	Base                   string             `json:"base"`
