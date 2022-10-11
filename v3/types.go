@@ -159,3 +159,5 @@ type CoinStatusUpdateProject struct {
 
 type CoinTicker struct {
 	Base                   string             `json:"base"`
+	Target                 string             `json:"target"`
+	Market                 CoinTickerMarket   `json:"market"`
