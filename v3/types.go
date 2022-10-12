@@ -161,3 +161,4 @@ type CoinTicker struct {
 	Base                   string             `json:"base"`
 	Target                 string             `json:"target"`
 	Market                 CoinTickerMarket   `json:"market"`
+	Last                   float64            `json:"last"`
