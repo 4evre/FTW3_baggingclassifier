@@ -162,3 +162,5 @@ type CoinTicker struct {
 	Target                 string             `json:"target"`
 	Market                 CoinTickerMarket   `json:"market"`
 	Last                   float64            `json:"last"`
+	Volume                 float64            `json:"volume"`
+	ConvertedLast          map[string]float64 `json:"converted_last"`
