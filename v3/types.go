@@ -164,3 +164,4 @@ type CoinTicker struct {
 	Last                   float64            `json:"last"`
 	Volume                 float64            `json:"volume"`
 	ConvertedLast          map[string]float64 `json:"converted_last"`
+	TrustScore             string             `json:"trust_score"`
