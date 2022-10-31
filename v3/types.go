@@ -181,3 +181,4 @@ type CoinTickerMarket struct {
 	Name                string `json:"name"`
 	Identifier          string `json:"identifier"`
 	HasTradingIncentive bool   `json:"has_trading_incentive"`
+}
