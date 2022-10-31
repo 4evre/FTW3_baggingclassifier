@@ -184,3 +184,4 @@ type CoinTickerMarket struct {
 }
 
 type CoinMarket struct {
+	ID                           string             `json:"id"`
