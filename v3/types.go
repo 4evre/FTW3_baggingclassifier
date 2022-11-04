@@ -191,3 +191,4 @@ type CoinMarket struct {
 	CurrentPrice                 float64            `json:"current_price"`
 	MarketCap                    float64            `json:"market_cap"`
 	MarketCapRank                uint16             `json:"market_cap_rank"`
+	FullyDilutedValuation        uint64             `json:"fully_diluted_valuation"`
