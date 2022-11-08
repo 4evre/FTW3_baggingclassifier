@@ -197,3 +197,5 @@ type CoinMarket struct {
 	Low24h                       float64            `json:"low_24h"`
 	PriceChange24h               float64            `json:"price_change_24h"`
 	PriceChangePercentage24h     float64            `json:"price_change_percentage_24h"`
+	MarketCapChange24h           float64            `json:"market_cap_change_24h"`
+	MarketCapChangePercentage24h float64            `json:"market_cap_change_percentage_24h"`
