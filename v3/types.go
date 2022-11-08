@@ -194,3 +194,5 @@ type CoinMarket struct {
 	FullyDilutedValuation        uint64             `json:"fully_diluted_valuation"`
 	TotalVolume                  float64            `json:"total_volume"`
 	High24h                      float64            `json:"high_24h"`
+	Low24h                       float64            `json:"low_24h"`
+	PriceChange24h               float64            `json:"price_change_24h"`
