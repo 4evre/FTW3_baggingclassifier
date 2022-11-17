@@ -200,3 +200,5 @@ type CoinMarket struct {
 	MarketCapChange24h           float64            `json:"market_cap_change_24h"`
 	MarketCapChangePercentage24h float64            `json:"market_cap_change_percentage_24h"`
 	CirculatingSupply            float64            `json:"circulating_supply"`
+	TotalSupply                  float64            `json:"total_supply"`
+	MaxSupply                    float64            `json:"max_supply"`
