@@ -203,3 +203,6 @@ type CoinMarket struct {
 	TotalSupply                  float64            `json:"total_supply"`
 	MaxSupply                    float64            `json:"max_supply"`
 	ATH                          float64            `json:"ath"`
+	ATHChangePercentage          float64            `json:"athChange_percentage"`
+	ATHDate                      string             `json:"ath_date"`
+	ATL                          float64            `json:"atl"`
