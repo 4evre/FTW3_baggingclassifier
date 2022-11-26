@@ -206,3 +206,6 @@ type CoinMarket struct {
 	ATHChangePercentage          float64            `json:"athChange_percentage"`
 	ATHDate                      string             `json:"ath_date"`
 	ATL                          float64            `json:"atl"`
+	ATLChangePercentage          float64            `json:"atl_change_percentage"`
+	ATLDate                      string             `json:"atl_date"`
+	ROI                          ReturnOnInvestment `json:"roi"`
