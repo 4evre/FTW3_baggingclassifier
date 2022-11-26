@@ -211,3 +211,5 @@ type CoinMarket struct {
 	ROI                          ReturnOnInvestment `json:"roi"`
 	LastUpdated                  string             `json:"last_updated"`
 }
+
+type ReturnOnInvestment struct {
