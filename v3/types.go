@@ -213,3 +213,5 @@ type CoinMarket struct {
 }
 
 type ReturnOnInvestment struct {
+	Times      float64 `json:"times"`
+	Currency   string  `json:"currency"`
