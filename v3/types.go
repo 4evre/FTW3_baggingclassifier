@@ -220,3 +220,4 @@ type ReturnOnInvestment struct {
 
 type CoinTickers struct {
 	Name    string              `json:"name"`
+	Tickers []CoinTickersTicker `json:"tickers"`
