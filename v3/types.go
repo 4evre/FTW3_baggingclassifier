@@ -222,3 +222,6 @@ type CoinTickers struct {
 	Name    string              `json:"name"`
 	Tickers []CoinTickersTicker `json:"tickers"`
 }
+
+type CoinTickersTicker struct {
+	Base                   string                           `json:"base"`
