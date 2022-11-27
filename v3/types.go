@@ -217,3 +217,6 @@ type ReturnOnInvestment struct {
 	Currency   string  `json:"currency"`
 	Percentage float64 `json:"percentage"`
 }
+
+type CoinTickers struct {
+	Name    string              `json:"name"`
