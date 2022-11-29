@@ -229,3 +229,5 @@ type CoinTickersTicker struct {
 	Market                 CoinTickersTickerMarket          `json:"market"`
 	Last                   float64                          `json:"last"`
 	Volume                 float64                          `json:"volume"`
+	ConvertedLast          CoinTickersTickerConvertedLast   `json:"converted_last"`
+	ConvertedVolume        CoinTickersTickerConvertedVolume `json:"converted_volume"`
