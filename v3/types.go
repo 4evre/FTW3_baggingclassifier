@@ -225,3 +225,4 @@ type CoinTickers struct {
 
 type CoinTickersTicker struct {
 	Base                   string                           `json:"base"`
+	Target                 string                           `json:"target"`
