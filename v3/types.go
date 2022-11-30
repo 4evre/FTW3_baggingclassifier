@@ -231,3 +231,5 @@ type CoinTickersTicker struct {
 	Volume                 float64                          `json:"volume"`
 	ConvertedLast          CoinTickersTickerConvertedLast   `json:"converted_last"`
 	ConvertedVolume        CoinTickersTickerConvertedVolume `json:"converted_volume"`
+	TrustScore             string                           `json:"trust_score"`
+	BidAskSpreadPercentage float64                          `json:"bid_ask_spread_percentage"`
