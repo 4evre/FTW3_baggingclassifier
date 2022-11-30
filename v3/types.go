@@ -236,3 +236,4 @@ type CoinTickersTicker struct {
 	Timestamp              string                           `json:"timestamp"`
 	LastTradedAt           string                           `json:"last_traded_at"`
 	LastFetchAt            string                           `json:"last_fetch_at"`
+	IsAnomaly              bool                             `json:"is_anomaly"`
