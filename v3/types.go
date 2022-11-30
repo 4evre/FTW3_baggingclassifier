@@ -235,3 +235,4 @@ type CoinTickersTicker struct {
 	BidAskSpreadPercentage float64                          `json:"bid_ask_spread_percentage"`
 	Timestamp              string                           `json:"timestamp"`
 	LastTradedAt           string                           `json:"last_traded_at"`
+	LastFetchAt            string                           `json:"last_fetch_at"`
