@@ -240,3 +240,6 @@ type CoinTickersTicker struct {
 	IsStale                bool                             `json:"is_stale"`
 	TradeURL               string                           `json:"trade_url"`
 	TokenInfoURL           string                           `json:"token_info_url"`
+	CoinID                 string                           `json:"coin_id"`
+	TargetCoinID           string                           `json:"target_coin_id"`
+}
