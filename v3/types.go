@@ -243,3 +243,5 @@ type CoinTickersTicker struct {
 	CoinID                 string                           `json:"coin_id"`
 	TargetCoinID           string                           `json:"target_coin_id"`
 }
+
+type CoinTickersTickerMarket struct {
