@@ -239,3 +239,4 @@ type CoinTickersTicker struct {
 	IsAnomaly              bool                             `json:"is_anomaly"`
 	IsStale                bool                             `json:"is_stale"`
 	TradeURL               string                           `json:"trade_url"`
+	TokenInfoURL           string                           `json:"token_info_url"`
