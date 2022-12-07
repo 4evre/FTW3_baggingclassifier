@@ -245,3 +245,4 @@ type CoinTickersTicker struct {
 }
 
 type CoinTickersTickerMarket struct {
+	Name                string `json:"name"`
