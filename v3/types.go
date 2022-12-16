@@ -250,3 +250,5 @@ type CoinTickersTickerMarket struct {
 	HasTradingIncentive bool   `json:"has_trading_incentive"`
 	Logo                string `json:"logo"`
 }
+
+type CoinTickersTickerConvertedLast struct {
