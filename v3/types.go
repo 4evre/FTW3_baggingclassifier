@@ -258,3 +258,4 @@ type CoinTickersTickerConvertedLast struct {
 }
 
 type CoinTickersTickerConvertedVolume struct {
+	BTC uint32 `json:"btc"`
