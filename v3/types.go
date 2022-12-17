@@ -253,3 +253,5 @@ type CoinTickersTickerMarket struct {
 
 type CoinTickersTickerConvertedLast struct {
 	BTC float64 `json:"btc"`
+	ETH float64 `json:"eth"`
+	USD float64 `json:"usd"`
