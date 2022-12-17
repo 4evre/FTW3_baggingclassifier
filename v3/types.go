@@ -256,3 +256,5 @@ type CoinTickersTickerConvertedLast struct {
 	ETH float64 `json:"eth"`
 	USD float64 `json:"usd"`
 }
+
+type CoinTickersTickerConvertedVolume struct {
