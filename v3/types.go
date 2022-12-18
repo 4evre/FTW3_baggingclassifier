@@ -261,3 +261,4 @@ type CoinTickersTickerConvertedVolume struct {
 	BTC uint32 `json:"btc"`
 	ETH uint32 `json:"eth"`
 	USD uint32 `json:"usd"`
+}
