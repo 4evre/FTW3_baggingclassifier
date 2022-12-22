@@ -262,3 +262,6 @@ type CoinTickersTickerConvertedVolume struct {
 	ETH uint32 `json:"eth"`
 	USD uint32 `json:"usd"`
 }
+
+type CoinHistory struct {
+	ID                  string                   `json:"id"`
