@@ -269,3 +269,6 @@ type CoinHistory struct {
 	Name                string                   `json:"name"`
 	Localization        map[string]string        `json:"localization"`
 	Image               ImageLinks               `json:"image"`
+	MarketData          CoinHistoryMarketData    `json:"market_data"`
+	CommunityData       CoinHistoryCommunityData `json:"community_data"`
+	DeveloperData       CoinDeveloperData        `json:"developer_data"`
