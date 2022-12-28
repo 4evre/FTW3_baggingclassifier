@@ -272,3 +272,4 @@ type CoinHistory struct {
 	MarketData          CoinHistoryMarketData    `json:"market_data"`
 	CommunityData       CoinHistoryCommunityData `json:"community_data"`
 	DeveloperData       CoinDeveloperData        `json:"developer_data"`
+	PublicInterestStats CoinPublicInterestStats  `json:"public_interest_stats"`
