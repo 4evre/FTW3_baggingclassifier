@@ -276,3 +276,4 @@ type CoinHistory struct {
 }
 
 type CoinHistoryMarketData struct {
+	CurrentPrice map[string]float64 `json:"current_price"`
