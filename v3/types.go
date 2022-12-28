@@ -277,3 +277,6 @@ type CoinHistory struct {
 
 type CoinHistoryMarketData struct {
 	CurrentPrice map[string]float64 `json:"current_price"`
+	MarketCap    map[string]float64 `json:"market_cap"`
+	TotalVolume  map[string]float64 `json:"total_volume"`
+}
