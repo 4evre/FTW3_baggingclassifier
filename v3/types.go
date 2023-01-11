@@ -289,3 +289,5 @@ type CoinHistoryCommunityData struct {
 	RedditSubscribers        uint64  `json:"reddit_subscribers"`
 	RedditAccountsActive48h  string  `json:"reddit_accounts_active_48h"`
 }
+
+type CoinMarketChart struct {
