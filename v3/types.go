@@ -295,3 +295,5 @@ type CoinMarketChart struct {
 	MarketCaps   [][]float64 `json:"market_caps"`
 	TotalVolumes [][]float64 `json:"total_volumes"`
 }
+
+type CoinStatusUpdates struct {
