@@ -298,3 +298,4 @@ type CoinMarketChart struct {
 
 type CoinStatusUpdates struct {
 	StatusUpdates []CoinStatusUpdate `json:"status_updates"`
+}
