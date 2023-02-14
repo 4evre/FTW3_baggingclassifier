@@ -6,3 +6,5 @@ func GetCoins() ([]ListedCoin, error) {
 	err := get("/coins/list", &coins)
 	return coins, err
 }
+
+func GetCoinMarkets(params GetCoinMarketsParams) ([]CoinMarket, error) {
