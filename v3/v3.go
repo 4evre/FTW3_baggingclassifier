@@ -12,3 +12,5 @@ func GetCoinMarkets(params GetCoinMarketsParams) ([]CoinMarket, error) {
 	err := getWithParams("/coins/markets", params, &markets)
 	return markets, err
 }
+
+func GetCoin(id string, params GetCoinParams) (Coin, error) {
