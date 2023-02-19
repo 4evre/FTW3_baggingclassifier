@@ -18,3 +18,7 @@ func GetCoin(id string, params GetCoinParams) (Coin, error) {
 	err := getWithParams("/coins/"+id, params, &coin)
 	return coin, err
 }
+
+func GetCoinTickers(id string, params GetCoinTickersParams) (CoinTickers, error) {
+	var tickers CoinTickers
+	err := getWithParams("/coins/"+id+"/tickers", params, &tickers)
