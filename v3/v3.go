@@ -23,3 +23,4 @@ func GetCoinTickers(id string, params GetCoinTickersParams) (CoinTickers, error)
 	var tickers CoinTickers
 	err := getWithParams("/coins/"+id+"/tickers", params, &tickers)
 	return tickers, err
+}
