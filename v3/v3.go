@@ -30,3 +30,5 @@ func GetCoinHistory(id string, params GetCoinHistoryParams) (CoinHistory, error)
 	err := getWithParams("/coins/"+id+"/history", params, &history)
 	return history, err
 }
+
+func GetCoinMarketChart(id string, params GetCoinMarketChartParams) (CoinMarketChart, error) {
