@@ -28,3 +28,5 @@ func GetCoinTickers(id string, params GetCoinTickersParams) (CoinTickers, error)
 func GetCoinHistory(id string, params GetCoinHistoryParams) (CoinHistory, error) {
 	var history CoinHistory
 	err := getWithParams("/coins/"+id+"/history", params, &history)
+	return history, err
+}
