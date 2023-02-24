@@ -32,3 +32,4 @@ func GetCoinHistory(id string, params GetCoinHistoryParams) (CoinHistory, error)
 }
 
 func GetCoinMarketChart(id string, params GetCoinMarketChartParams) (CoinMarketChart, error) {
+	var marketChart CoinMarketChart
