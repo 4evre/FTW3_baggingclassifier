@@ -33,3 +33,6 @@ func GetCoinHistory(id string, params GetCoinHistoryParams) (CoinHistory, error)
 
 func GetCoinMarketChart(id string, params GetCoinMarketChartParams) (CoinMarketChart, error) {
 	var marketChart CoinMarketChart
+	err := getWithParams("/coins/"+id+"/market_chart", params, &marketChart)
+	return marketChart, err
+}
