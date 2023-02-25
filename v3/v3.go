@@ -38,3 +38,4 @@ func GetCoinMarketChart(id string, params GetCoinMarketChartParams) (CoinMarketC
 }
 
 func GetCoinMarketChartRange(id string, params GetCoinMarketChartRangeParams) (CoinMarketChart, error) {
+	var marketChart CoinMarketChart
