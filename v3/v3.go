@@ -41,3 +41,4 @@ func GetCoinMarketChartRange(id string, params GetCoinMarketChartRangeParams) (C
 	var marketChart CoinMarketChart
 	err := getWithParams("/coins/"+id+"/market_chart/range", params, &marketChart)
 	return marketChart, err
+}
