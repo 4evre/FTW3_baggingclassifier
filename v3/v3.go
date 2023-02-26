@@ -44,3 +44,4 @@ func GetCoinMarketChartRange(id string, params GetCoinMarketChartRangeParams) (C
 }
 
 func GetCoinStatusUpdates(id string, params GetCoinStatusUpdatesParams) (CoinStatusUpdates, error) {
+	var statusUpdates CoinStatusUpdates
