@@ -47,3 +47,4 @@ func GetCoinStatusUpdates(id string, params GetCoinStatusUpdatesParams) (CoinSta
 	var statusUpdates CoinStatusUpdates
 	err := getWithParams("/coins/"+id+"/status_updates", params, &statusUpdates)
 	return statusUpdates, err
+}
