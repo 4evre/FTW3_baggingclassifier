@@ -53,3 +53,4 @@ func GetCoinOHLC(id string, params GetCoinOHLCParams) (CoinOHLC, error) {
 	var ohlc CoinOHLC
 	err := getWithParams("/coins/"+id+"/ohlc", params, &ohlc)
 	return ohlc, err
+}
